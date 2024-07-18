@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="EurekaServer" />
+        <module name="shared" />
+        <module name="Category" />
+        <module name="ProductMS" />
+        <module name="GatewayServerer" />
+        <module name="ConfigurationServer" />
+        <module name="StockMS" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Category" options="-parameters" />
+      <module name="ConfigurationServer" options="-parameters" />
+      <module name="EurekaServer" options="-parameters" />
+      <module name="GatewayServerer" options="-parameters" />
+      <module name="ProductMS" options="-parameters" />
+      <module name="StockMS" options="-parameters" />
+      <module name="shared" options="" />
+    </option>
+  </component>
+</project>
